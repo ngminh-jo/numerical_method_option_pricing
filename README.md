@@ -1,12 +1,29 @@
-# Option pricing
+# Option Pricing
 
-This repository contains a few notebooks on numerical methods for financial mathematics, especially for option pricing. The focus is on implementation and numerics. Topics covered include stochastic differential equations, the Black-Scholes model, and the multilevel Monte Carlo method.
+Welcome to the **Option Pricing** repository! This project delves into numerical methods for financial mathematics, with a strong emphasis on option pricing. Our primary focus is on implementation and numerical analysis, covering key methods and models such as stochastic differential equations, the Black-Scholes model, and the multilevel Monte Carlo method.
 
-## Content
+## Contents
 
-- [Brownian motion and Euler-Maruyama](notebooks/Brownian_motion_and_Euler-Maruyama.ipynb) - Introducing the Wiener process, the geometric Brownian motion, as well as the Euler-Maruyama method for solving stochastic differential equations.
-- [Strong and weak convergence](notebooks/Strong_and_weak_convergence.ipynb) - Confirming the strong and weak convergence orders for the Euler-Maruyama and the Milstein method.
-- [Monte Carlo European option](notebooks/Monte_Carlo_European_Option.ipynb) - Using Monte Carlo methods to price European options and investigating two sources of error.
-- [Multilevel Monte Carlo method](notebooks/Multilevel_Monte_Carlo.ipynb) - Introduction and analysis of the Multilevel Monte Carlo method by replicating the results in [Multilevel Monte Carlo path simulation](https://ora.ox.ac.uk/objects/uuid:d9d28973-94aa-4179-962a-28bcfa8d8f00/download_file?safe_filename=2007OMI06.pdf&file_format=application%2Fpdf&type_of_work=Working+paper) by Michael B. Giles.
-- [European basket call with MLMC](notebooks/European_Basket_Option.ipynb) - Pricing a European basket call option using Multilevel Monte Carlo and historic data for the big five tech companies.
-- [European capped symmetric power call](notebooks/European_Capped_Symmetric_Power_Call.ipynb) - Pricing a European capped symmetric power call using appropriate discretization and the finite difference method.
+This repository includes a collection of Jupyter notebooks that introduce and explore various methods in option pricing:
+
+- **[Brownian Motion and Euler-Maruyama](notebooks/Brownian_motion_and_Euler-Maruyama.ipynb)**  
+  Understand the foundations of the Wiener process, geometric Brownian motion, and the Euler-Maruyama method for solving stochastic differential equations.
+
+- **[Strong and Weak Convergence](notebooks/Strong_and_weak_convergence.ipynb)**  
+  Validate the strong and weak convergence orders for both the Euler-Maruyama and Milstein methods.
+
+- **[Monte Carlo European Option Pricing](notebooks/Monte_Carlo_European_Option.ipynb)**  
+  Apply Monte Carlo methods to price European options and explore the primary sources of error in the process.
+
+- **[Multilevel Monte Carlo Method](notebooks/Multilevel_Monte_Carlo.ipynb)**  
+  An in-depth look at the Multilevel Monte Carlo method, replicating results from [Michael B. Giles' paper](https://ora.ox.ac.uk/objects/uuid:d9d28973-94aa-4179-962a-28bcfa8d8f00/download_file?safe_filename=2007OMI06.pdf&file_format=application%2Fpdf&type_of_work=Working+paper) on path simulation.
+
+- **[European Basket Call Option with MLMC](notebooks/European_Basket_Option.ipynb)**  
+  Price a European basket call option using the Multilevel Monte Carlo method, leveraging historical data from major tech companies.
+
+- **[European Capped Symmetric Power Call](notebooks/European_Capped_Symmetric_Power_Call.ipynb)**  
+  Explore pricing techniques for a European capped symmetric power call, utilizing appropriate discretization and finite difference methods.
+
+---
+
+These notebooks are designed to be practical and accessible, providing insights into both theoretical concepts and their real-world applications. Whether you're a student, researcher, or finance professional, this repository will serve as a valuable resource in your study of option pricing.
